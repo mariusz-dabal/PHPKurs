@@ -7,7 +7,7 @@
 		<title>Home</title>
 		<style>
 			body {
-				background: #dfdfdf;
+				background: #d3d3d3;
 			}
 
 			h1 {
