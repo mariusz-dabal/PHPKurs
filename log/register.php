@@ -9,13 +9,6 @@ $fileName = md5($email);
 
 $userInfo = serialize(['firstName' => $firstName, 'lastName' => $lastName, 'email' => $email, 'password' => $password]);
 
-var_dump($firstName);
-var_dump($lastName);
-var_dump($email);
-var_dump($password);
-
-print_r($userInfo);
-
 if(!file_exists("data")) {
     mkdir("data", 0777, true);
 }
